@@ -27,4 +27,8 @@ public class Burst {
     public int getRemainingTime() {
         return this.remainingTime;
     }
+    
+    public void run() {
+        this.remainingTime--;
+    }
 }
